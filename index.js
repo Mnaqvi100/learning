@@ -37,5 +37,6 @@ res.send("implementing all method");
 //delete method
 app.delete("/delete_testd",function(req,res){
     res.send("deleting methods");
+    console.log("gjhgu");
 });
 app.listen(7000);
